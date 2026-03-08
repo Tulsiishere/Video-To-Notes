@@ -44,11 +44,12 @@ The project follows a modular AI pipeline architecture.
         screenshots/         # Key frames with timestamps
 
     src/
-      main.py                 # Entry point (batch processing)
       transcriber.py          # Audio extraction + transcription
       summarizer.py           # LLM-based structured summary
       asset_extractor.py      # Clip + screenshot generation
       utils/                  # Helper functions (timestamps, formatting)
+
+    main.py                 # Entry point (batch processing)
 ```
 
 The system processes each video independently and generates a complete output package.
@@ -169,7 +170,7 @@ Place videos inside:
 `input/videos/`
 
 **Step 3 — Run the Pipeline**
-`python src/main.py`
+`python main.py`
 
 **Step 4 — View Results**
 
