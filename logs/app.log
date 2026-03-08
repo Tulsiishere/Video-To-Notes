@@ -1,0 +1,203 @@
+2026-02-20 13:49:18,411 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 13:56:24,314 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 14:42:53,661 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 14:49:06,004 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 14:49:07,941 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 14:49:07,941 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 14:49:21,839 - INFO - video_to_notes - Starting transcription...
+2026-02-20 14:52:51,533 - INFO - video_to_notes - Transcription complete.
+2026-02-20 14:57:44,379 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 14:57:46,272 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 14:57:46,272 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 14:57:46,927 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:01:05,484 - INFO - video_to_notes - Transcription complete.
+2026-02-20 15:06:26,966 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 15:06:29,169 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 15:06:29,170 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 15:06:29,999 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:09:33,971 - INFO - video_to_notes - Transcription complete.
+2026-02-20 15:12:10,309 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 15:12:11,957 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 15:12:11,957 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 15:12:12,633 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:15:23,626 - INFO - video_to_notes - Transcription complete.
+2026-02-20 15:15:23,627 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-20 15:15:23,627 - INFO - video_to_notes - Calling Gemini LLM...
+2026-02-20 15:16:08,962 - ERROR - video_to_notes - Invalid LLM response.
+2026-02-20 15:23:13,840 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 15:23:15,423 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 15:23:15,423 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 15:23:15,983 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:26:21,060 - INFO - video_to_notes - Transcription complete.
+2026-02-20 15:26:21,061 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-20 15:26:21,061 - INFO - video_to_notes - Calling Gemini LLM...
+2026-02-20 15:26:58,313 - INFO - video_to_notes - Highlights extracted and validated.
+2026-02-20 15:43:37,972 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 15:43:39,509 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 15:43:39,510 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 15:43:40,239 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:46:39,229 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 15:46:40,724 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 15:46:40,724 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 15:46:41,293 - INFO - video_to_notes - Starting transcription...
+2026-02-20 15:49:49,230 - INFO - video_to_notes - Transcription complete.
+2026-02-20 15:49:49,231 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-20 15:49:49,231 - INFO - video_to_notes - Calling Gemini LLM...
+2026-02-20 15:50:24,224 - INFO - video_to_notes - Highlights extracted and validated.
+2026-02-20 15:50:24,385 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_1_frances_tech_innovation_past_g.mp4
+2026-02-20 15:50:24,508 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_2_addressing_frances_tech_sector.mp4
+2026-02-20 15:50:24,653 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_3_sovereign_ai_balancing_foreign.mp4
+2026-02-20 15:50:24,823 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_4_frances_appeal_a_unique_ecosys.mp4
+2026-02-20 15:50:25,008 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_5_indias_digital_public_infrastr.mp4
+2026-02-20 15:50:25,209 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_6_innovation_philosophy_embracin.mp4
+2026-02-20 15:50:25,431 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_7_indiafrance_an_allweather_frie.mp4
+2026-02-20 15:50:25,696 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_8_strategic_autonomy_europes_pat.mp4
+2026-02-20 15:50:25,958 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_9_respect_as_a_cornerstone_of_le.mp4
+2026-02-20 15:50:26,234 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_10_strengthening_the_euro_a_chall.mp4
+2026-02-20 15:50:26,539 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_11_future_outlook_optimism_in_edu.mp4
+2026-02-20 16:27:32,523 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-20 16:27:34,546 - INFO - video_to_notes - Audio extraction complete.
+2026-02-20 16:27:34,546 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-20 16:27:35,273 - INFO - video_to_notes - Starting transcription...
+2026-02-20 16:31:19,117 - INFO - video_to_notes - Transcription complete.
+2026-02-20 16:34:39,900 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-21 12:20:12,671 - WARNING - video_to_notes - No videos found.
+2026-02-21 12:21:03,377 - INFO - video_to_notes - Found 1 video(s)
+2026-02-21 12:21:03,377 - INFO - video_to_notes - 
+Processing: videoplayback.mp4
+2026-02-21 12:21:03,377 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-21 12:21:05,387 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:21:05,387 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:21:06,247 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:30:31,846 - INFO - video_to_notes - Found 2 video(s)
+2026-02-21 12:30:31,846 - INFO - video_to_notes - 
+Processing: videoplayback (1).mp4
+2026-02-21 12:30:31,846 - INFO - video_to_notes - Extracting audio from videoplayback (1).mp4
+2026-02-21 12:30:33,245 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:30:33,245 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:30:33,930 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:34:07,119 - INFO - video_to_notes - Transcription complete.
+2026-02-21 12:34:07,121 - ERROR - video_to_notes - Failed: videoplayback (1).mp4
+2026-02-21 12:34:07,121 - ERROR - video_to_notes - GEMINI_API_KEY not set in environment.
+2026-02-21 12:34:07,131 - INFO - video_to_notes - 
+Processing: videoplayback.mp4
+2026-02-21 12:34:07,132 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-21 12:34:08,758 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:34:08,758 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:34:09,485 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:37:28,154 - INFO - video_to_notes - Transcription complete.
+2026-02-21 12:37:28,155 - ERROR - video_to_notes - Failed: videoplayback.mp4
+2026-02-21 12:37:28,155 - ERROR - video_to_notes - GEMINI_API_KEY not set in environment.
+2026-02-21 12:39:04,669 - INFO - video_to_notes - Found 2 video(s)
+2026-02-21 12:39:04,669 - INFO - video_to_notes - 
+Processing: videoplayback (1).mp4
+2026-02-21 12:39:04,670 - INFO - video_to_notes - Extracting audio from videoplayback (1).mp4
+2026-02-21 12:39:06,229 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:39:06,229 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:39:06,852 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:42:24,585 - INFO - video_to_notes - Transcription complete.
+2026-02-21 12:42:24,586 - ERROR - video_to_notes - Failed: videoplayback (1).mp4
+2026-02-21 12:42:24,586 - ERROR - video_to_notes - GEMINI_API_KEY not set in environment.
+2026-02-21 12:42:24,596 - INFO - video_to_notes - 
+Processing: videoplayback.mp4
+2026-02-21 12:42:24,597 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-21 12:42:26,380 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:42:26,380 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:42:27,040 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:44:50,381 - INFO - video_to_notes - Found 2 video(s)
+2026-02-21 12:44:50,382 - INFO - video_to_notes - 
+Processing: videoplayback (1).mp4
+2026-02-21 12:44:50,383 - INFO - video_to_notes - Extracting audio from videoplayback (1).mp4
+2026-02-21 12:44:53,097 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:44:53,097 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:44:53,762 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:46:10,690 - INFO - video_to_notes - Found 2 video(s)
+2026-02-21 12:46:10,691 - INFO - video_to_notes - 
+Processing: videoplayback (1).mp4
+2026-02-21 12:46:10,691 - INFO - video_to_notes - Extracting audio from videoplayback (1).mp4
+2026-02-21 12:46:13,616 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:46:13,617 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:46:14,961 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:53:00,419 - INFO - video_to_notes - Found 2 video(s)
+2026-02-21 12:53:00,420 - INFO - video_to_notes - 
+Processing: videoplayback (1).mp4
+2026-02-21 12:53:00,420 - INFO - video_to_notes - Extracting audio from videoplayback (1).mp4
+2026-02-21 12:53:01,774 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:53:01,774 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:53:02,422 - INFO - video_to_notes - Starting transcription...
+2026-02-21 12:56:15,766 - INFO - video_to_notes - Transcription complete.
+2026-02-21 12:56:15,767 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-21 12:56:15,768 - INFO - video_to_notes - Calling Gemini LLM...
+2026-02-21 12:56:50,249 - INFO - video_to_notes - Highlights extracted and validated.
+2026-02-21 12:56:50,250 - INFO - video_to_notes - Extracting screenshot at 73.5 seconds
+2026-02-21 12:56:50,323 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,324 - INFO - video_to_notes - Extracting screenshot at 290.12 seconds
+2026-02-21 12:56:50,398 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,398 - INFO - video_to_notes - Extracting screenshot at 415.7 seconds
+2026-02-21 12:56:50,457 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,459 - INFO - video_to_notes - Extracting screenshot at 572.18 seconds
+2026-02-21 12:56:50,525 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,526 - INFO - video_to_notes - Extracting screenshot at 668.5999999999999 seconds
+2026-02-21 12:56:50,582 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,583 - INFO - video_to_notes - Extracting screenshot at 771.14 seconds
+2026-02-21 12:56:50,637 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,638 - INFO - video_to_notes - Extracting screenshot at 965.3599999999999 seconds
+2026-02-21 12:56:50,705 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,706 - INFO - video_to_notes - Extracting screenshot at 1125.72 seconds
+2026-02-21 12:56:50,764 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,764 - INFO - video_to_notes - Extracting screenshot at 1399.76 seconds
+2026-02-21 12:56:50,819 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,820 - INFO - video_to_notes - Extracting screenshot at 1591.52 seconds
+2026-02-21 12:56:50,883 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,883 - INFO - video_to_notes - Extracting screenshot at 1890.28 seconds
+2026-02-21 12:56:50,939 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:50,939 - INFO - video_to_notes - Extracting screenshot at 2044.38 seconds
+2026-02-21 12:56:51,000 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 12:56:51,055 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_1_introduction_to_diffusion_mode.mp4
+2026-02-21 12:56:51,142 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_2_clip_model_training_a_shared_r.mp4
+2026-02-21 12:56:51,238 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_3_clips_latent_space_and_concept.mp4
+2026-02-21 12:56:51,370 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_4_introducing_ddpm_and_its_nonob.mp4
+2026-02-21 12:56:51,507 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_5_ddpms_training_objective_predi.mp4
+2026-02-21 12:56:51,661 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_6_visualizing_diffusion_as_vecto.mp4
+2026-02-21 12:56:51,837 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_7_ddpm_training_objective_and_ti.mp4
+2026-02-21 12:56:52,024 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_8_the_role_of_random_noise_in_dd.mp4
+2026-02-21 12:56:52,245 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_9_ddim_deterministic_diffusion_f.mp4
+2026-02-21 12:56:52,489 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_10_integrating_clip_with_diffusio.mp4
+2026-02-21 12:56:52,770 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_11_classifierfree_guidance_enhanc.mp4
+2026-02-21 12:56:53,062 - INFO - video_to_notes - Clip created: output\videoplayback (1)\clips\clip_12_negative_prompts_for_refined_v.mp4
+2026-02-21 12:56:53,077 - INFO - video_to_notes - Completed: videoplayback (1).mp4
+2026-02-21 12:56:53,078 - INFO - video_to_notes - 
+Processing: videoplayback.mp4
+2026-02-21 12:56:53,079 - INFO - video_to_notes - Extracting audio from videoplayback.mp4
+2026-02-21 12:56:54,591 - INFO - video_to_notes - Audio extraction complete.
+2026-02-21 12:56:54,592 - INFO - video_to_notes - Loading Whisper model: base
+2026-02-21 12:56:55,163 - INFO - video_to_notes - Starting transcription...
+2026-02-21 13:00:14,650 - INFO - video_to_notes - Transcription complete.
+2026-02-21 13:00:14,674 - INFO - video_to_notes - Calling LLM for highlights...
+2026-02-21 13:00:14,675 - INFO - video_to_notes - Calling Gemini LLM...
+2026-02-21 13:00:38,784 - INFO - video_to_notes - Highlights extracted and validated.
+2026-02-21 13:00:38,784 - INFO - video_to_notes - Extracting screenshot at 16.5 seconds
+2026-02-21 13:00:38,897 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:38,897 - INFO - video_to_notes - Extracting screenshot at 78.5 seconds
+2026-02-21 13:00:38,961 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:38,962 - INFO - video_to_notes - Extracting screenshot at 128.5 seconds
+2026-02-21 13:00:39,031 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,032 - INFO - video_to_notes - Extracting screenshot at 796.5 seconds
+2026-02-21 13:00:39,088 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,089 - INFO - video_to_notes - Extracting screenshot at 1024.5 seconds
+2026-02-21 13:00:39,150 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,150 - INFO - video_to_notes - Extracting screenshot at 1889.0 seconds
+2026-02-21 13:00:39,217 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,218 - INFO - video_to_notes - Extracting screenshot at 1975.5 seconds
+2026-02-21 13:00:39,273 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,274 - INFO - video_to_notes - Extracting screenshot at 2163.92 seconds
+2026-02-21 13:00:39,328 - INFO - video_to_notes - Screenshot saved.
+2026-02-21 13:00:39,365 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_1_frances_lag_in_global_tech_mis.mp4
+2026-02-21 13:00:39,416 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_2_indiafrance_partnership_a_mode.mp4
+2026-02-21 13:00:39,467 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_3_frances_moonshot_leading_the_q.mp4
+2026-02-21 13:00:39,620 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_4_frances_ai_strategy_balancing_.mp4
+2026-02-21 13:00:39,783 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_5_why_france_a_unique_ecosystem_.mp4
+2026-02-21 13:00:40,064 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_6_respect_as_the_cornerstone_of_.mp4
+2026-02-21 13:00:40,348 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_7_the_euros_bid_for_global_domin.mp4
+2026-02-21 13:00:40,646 - INFO - video_to_notes - Clip created: output\videoplayback\clips\clip_8_postpresidency_reflections_opt.mp4
+2026-02-21 13:00:40,656 - INFO - video_to_notes - Completed: videoplayback.mp4

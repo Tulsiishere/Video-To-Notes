@@ -1,0 +1,22 @@
+paths:
+  input_root: "input/videos"
+  output_root: "output"
+  temp_root: "temp"
+
+transcription:
+  model_size: "base"
+  device: "cpu"
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.2
+  max_retries: 3
+
+highlights:
+  max_highlights: 12
+  min_duration_sec: 30
+  max_duration_sec: 180
+
+chunking:
+  chunk_minutes: 6

@@ -1,0 +1,10 @@
+openai
+python-dotenv
+pydantic
+pyyaml
+tqdm
+tenacity
+ffmpeg-python
+openai-whisper
+google-generativeai
+google-genai
