@@ -34,22 +34,69 @@ This system demonstrates how Generative AI pipelines can transform unstructured 
 The project follows a modular AI pipeline architecture.
 
 ```
-    input/
-      videos/                 # Place all raw videos here
-
-    output/
-      <video_name>/
-        Summary.md            # Structured markdown summary
-        clips/                # Highlight video clips
-        screenshots/         # Key frames with timestamps
-
-    src/
-      transcriber.py          # Audio extraction + transcription
-      summarizer.py           # LLM-based structured summary
-      asset_extractor.py      # Clip + screenshot generation
-      utils/                  # Helper functions (timestamps, formatting)
-
-    main.py                 # Entry point (batch processing)
+video-to-notes-ai/
+│
+├── config/                     # Configuration files
+│
+├── input/                      # Input data
+│   └── videos/                 # Raw videos to process
+│
+├── logs/                       # Application logs
+│
+├── output/                     # Generated outputs
+│   └── <video_name>/
+│       ├── Summary.md
+│       ├── clips/
+│       └── screenshots/
+│
+├── src/                        # Core application source code
+│
+│   ├── llm/                    # LLM abstraction layer
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── factory.py
+│   │   ├── gemini_client.py
+│   │   ├── openai_client.py
+│   │   ├── highlight_extractor.py
+│   │   ├── prompt_builder.py
+│   │   └── schema.py
+│
+│   ├── markdown/               # Markdown generation
+│   │   ├── __init__.py
+│   │   └── builder.py
+│
+│   ├── media/                  # Media processing utilities
+│   │   ├── __init__.py
+│   │   ├── audio_extractor.py
+│   │   └── screenshot_extractor.py
+│
+│   ├── orchestrator/           # Batch execution manager
+│   │   └── batch_processor.py
+│
+│   ├── pipeline/               # Core AI pipeline logic
+│   │   └── processor.py
+│
+│   ├── transcription/          # Speech-to-text modules
+│   │   ├── __init__.py
+│   │   └── whisper_transcriber.py
+│
+│   ├── utils/                  # Utility functions
+│   │   ├── __init__.py
+│   │   └── chunker.py
+│
+│   ├── video/                  # Video clip generation
+│   │   ├── __init__.py
+│   │   └── clip_generator.py
+│
+│   ├── config.py               # Global configuration loader
+│   └── logger.py               # Logging configuration
+│
+├── temp/                       # Temporary processing files
+│
+├── .env                        # Environment variables (API keys)
+├── main.py                     # Application entry point
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 ```
 
 The system processes each video independently and generates a complete output package.
